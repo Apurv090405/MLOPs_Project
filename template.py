@@ -13,4 +13,7 @@ list_of_files=[
     "src/pipeline/__init__.py",
     "src/pipeline/traning_pipeline.py",
     "src/pipeline/prediction_pipeline.py",
+
+
+    
 ]
