@@ -13,7 +13,9 @@ list_of_files=[
     "src/pipeline/__init__.py",
     "src/pipeline/traning_pipeline.py",
     "src/pipeline/prediction_pipeline.py",
-
-
-    
+    "src/utils/utils.py",
+    "testes/units/__init__.py",
+    "testes/integration/__init__.py",
+    "init_setup.sh",
+    "requirementts.txt",
 ]
