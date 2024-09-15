@@ -39,3 +39,22 @@ for filepath in list_of_files:
     if (not os.path.exists(filepath)) or (os.path.getsize(filepath) == 0):
         with open(filepath, "w") as f:
             pass # create an empty file
+
+
+# .github/workflow folder --> for CI/CD
+# experiments folder --> for small experimets inside one .ipynb file so samll experiments run in ipynb file
+# src folder --> entire source code
+# src/components folder --> 
+# Machine learning: 2 types Supervised and unsupervised learning we have follow 2 pipeline 1. Model_traning pipeline and 2. validation pipline
+
+# src/exception --> for exception handling
+# src/logger --> for logging 
+# src/pipeline --> manage all the pipeline
+# src/testes/integration --> intergration releted testing
+# src/testes/unit --> unit testing
+
+# init_setup.sh --> all the setup initialized here
+# pyproject.toml --> toml file
+# setup.cfg --> configration file
+# setup.py -->
+# tox.ini --> tox file for test all the project in local dev. enviroment
